@@ -17,7 +17,7 @@ The following CloudFormation stacks are used to deploy the environment:
 | **EFSStack**      | Deploys the Elastic File System (EFS) for storing web server logs. |
 | **ASGStack**      | Deploys the auto scaling group resources.           |
 | **ELKStack**      | Deploys the Elastic Stack (ELK) for monitoring and logging. |
-| **S3Stack**       | Deploys the S3 bucket for storing exported RDS data. |
+| **EXPStack**       | Deploys the S3 bucket for storing exported RDS data. |
 
 > [!IMPORTANT] 
 > Ensure these stack names are used when launching the environment,
